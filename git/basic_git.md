@@ -115,4 +115,9 @@ sync가 맞는 지 확인하는 명령어
 2. 모든 repo (프로젝트)는
    1. README.md : README는 어떤 프로젝트에 대한 설명서
         `$ touch README.md`
+        작성한 후,
+        `$ git add README.md`
+        `$ git commit -m 'add readme'`
+        `$ git push origin master`
+        ※ github README 에서 Add a README 버튼 누르지 않기
    2. .gitignore 를 담고 있어야 한다.
