@@ -88,7 +88,31 @@ git push <name> <branch>
 
 4. 모든 sync 맞추기 
 
+5. 이제 끝났으니, desktop에 만들어놓은 거 삭제
+    `cd ..`
+    `rm -rf TIL/`
+
+
 ### 기타
 git log short
+sync가 맞는 지 확인하는 명령어
 `$ git log --oneline`
-sync가 맞아야 함.
+
+
+## 주의사항
+1. 현재 위치를 잘 확인한다.
+2. Repo 안에서 repo(= master)를 만들지 않는다.
+   1. 이미 git init을 한 곳 안에
+   2. 하위 폴더를 만들고 `$ mkdir test`
+   3. 그 하위 폴더에서 `$ git init`을 하지 않는다.
+   4. `master` 떠 있으면 init 제발 X !!!
+3. Home(~)에서 init 하지 않는다.
+    * Repo 안에서 repo(= master)를 만드는 셈.
+4. (지금은) github에서 직접 수정하지 않는다.
+
+## 권장사항
+1. commit 메시지는 간결명료하게
+2. 모든 repo (프로젝트)는
+   1. README.md : README는 어떤 프로젝트에 대한 설명서
+        `$ touch README.md`
+   2. .gitignore 를 담고 있어야 한다.
