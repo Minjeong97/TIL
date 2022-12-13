@@ -72,12 +72,12 @@ git push <name> <branch>
 ### ex
 1. test.txt 삭제
     `$ rm test.txt`
-   * 주의: ②(cloud) ③(desktop, 외부pc)에서 삭제하면 안됨
+   * 주의: ②(remote) ③(desktop, 외부pc)에서 삭제하면 안됨
 
 
 1. commit 추가
     `$ git add .`
-    `$ git commit -m`
+    `$ git commit -m 'remove test.txt'`
 
 2. remote에 반영
     `get push origin master`
@@ -87,4 +87,8 @@ git push <name> <branch>
     `$ ls`
 
 4. 모든 sync 맞추기 
-    
+
+### 기타
+git log short
+`$ git log --oneline`
+sync가 맞아야 함.
