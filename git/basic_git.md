@@ -120,4 +120,15 @@ sync가 맞는 지 확인하는 명령어
         `$ git commit -m 'add readme'`
         `$ git push origin master`
         ※ github README 에서 Add a README 버튼 누르지 않기
+
    2. .gitignore 를 담고 있어야 한다.
+        `$ touch .gitignore`
+        `$ git status`
+        ignore 파일에 파일 이름을 써놓고 저장하면, 알아서 ignore 해줌.
+
+        그렇다면, 일일이 파일 이름을 적어줘야 하는가? NO
+        > `gitignore.io`로 들어가서 
+        > `windows` `python` `Django` `venv` 태크 생성
+        > 엔터 치면 나오는 내용 복사해서 붙이기
+        > 파일 저장
+        

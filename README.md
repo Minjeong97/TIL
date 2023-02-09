@@ -1,4 +1,2 @@
-# Today I Learned
+# Min-jeong Choi
 
-화양연화
-git 
